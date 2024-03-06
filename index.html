@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin khảo sát</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="form-main">
+        <div class="main-wrapper">
+            <h2 class="form-head">Thông tin khảo sát</h2>
+            <form id="infoSurvey" class="form-wrapper" action="#" method="POST">
+                <div class="form-card">
+                    <label class="form-label" for="full_name">Họ và tên</label>
+                    <input class="form-input" type="text" id="full_name" name="full_name" required>
+                </div>
+
+                <div class="form-card">
+                    <label class="form-label" for="date">Ngày sinh</label>
+                    <input class="form-input" type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-card">
+                    <label class="form-label" for="cccd">CCCD</label>
+                    <input class="form-input" type="text" id="cccd" name="cccd" required>
+                </div>
+
+                <div class="form-card">
+                    <label class="form-label" for="phone_number">Số điện thoại</label>
+                    <input class="form-input" type="tel" id="phone_number" name="phone_number" required>
+                </div>
+
+                <div class="form-card">
+                    <label class="form-label" for="address">Địa chỉ</label>
+                    <textarea class="form-textarea" id="address" name="address" rows="3" maxlength="420" required></textarea>
+                </div>
+                
+                <div class="btn-wrap">
+                    <input type="submit" value="Gửi" class="submitBtn">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
